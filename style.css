@@ -99,6 +99,9 @@ form input:valid ~ button{
 
     form button{
         font-size: 15px; 
+        &:active{
+            background-color: #98e112e0;
+        }
     }
     
 }
